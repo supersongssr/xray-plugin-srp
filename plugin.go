@@ -15,7 +15,7 @@ func init() {
 		if err != nil {
 			fatal(err)
 		}
-		newError("xray v1.8.4 srp started").AtWarning().WriteToLog()
+		newError("xray v1.8.4 srp iplimit started").AtWarning().WriteToLog()
 	}()
 }
 
