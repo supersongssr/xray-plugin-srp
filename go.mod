@@ -1,6 +1,8 @@
 module github.com/supersongssr/xray-plugin-srp
 
-go 1.18
+go 1.21
+
+toolchain go1.21.3
 
 require (
 	code.cloudfoundry.org/bytefmt v0.0.0-20231017140541-3b893ed0421b
